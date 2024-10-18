@@ -1,8 +1,7 @@
 package CodigoGon.Fiadito;
 
-import CodigoGon.Fiadito.aplication.FiaditoFX;
+import CodigoGon.Fiadito.Application.FiaditoFX;
 import javafx.application.Application;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication

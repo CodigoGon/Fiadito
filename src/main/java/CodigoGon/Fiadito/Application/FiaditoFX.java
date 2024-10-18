@@ -1,4 +1,4 @@
-package CodigoGon.Fiadito.aplication;
+package CodigoGon.Fiadito.Application;
 
 import CodigoGon.Fiadito.FiaditoApplication;
 import javafx.application.Application;
@@ -8,8 +8,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
-
-import java.io.IOException;
 
 public class FiaditoFX extends Application {
 
