@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="685.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CodigoGon.Fiadito.Controller.DiariaController">
+   <children>
+      <TableView fx:id="TableDeudas" layoutX="14.0" layoutY="97.0" prefHeight="436.0" prefWidth="245.0">
+        <columns>
+          <TableColumn prefWidth="151.0" text="Cliente" />
+          <TableColumn prefWidth="93.0" text="Monto" />
+        </columns>
+      </TableView>
+      <TableView fx:id="TablePagos" layoutX="341.0" layoutY="97.0" prefHeight="436.0" prefWidth="245.0">
+         <columns>
+            <TableColumn prefWidth="151.0" text="Cliente" />
+            <TableColumn prefWidth="93.0" text="Monto" />
+         </columns>
+      </TableView>
+      <Label layoutX="245.0" layoutY="21.0" text="Diarias">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <TextField fx:id="totalDeuda" layoutX="164.0" layoutY="543.0" prefHeight="25.0" prefWidth="95.0" />
+      <TextField fx:id="totalPAgo" layoutX="341.0" layoutY="543.0" prefHeight="25.0" prefWidth="95.0" />
+      <TextField fx:id="totalDeuda1" layoutX="253.0" layoutY="575.0" prefHeight="25.0" prefWidth="95.0" />
+      <Label layoutX="70.0" layoutY="545.0" text="Total Deudas">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="446.0" layoutY="545.0" text="Total Pagos">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="600.0" text="Neto">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="276.0" layoutY="239.0" mnemonicParsing="false" text="Borrar" />
+      <Button layoutX="271.0" layoutY="130.0" mnemonicParsing="false" text="Agregar" />
+      <Button layoutX="277.0" layoutY="171.0" mnemonicParsing="false" text="Editar" />
+      <Button layoutX="276.0" layoutY="499.0" mnemonicParsing="false" text="Cerrar" />
+      <Button layoutX="269.0" layoutY="205.0" mnemonicParsing="false" text="Consulta" />
+   </children>
+</AnchorPane>

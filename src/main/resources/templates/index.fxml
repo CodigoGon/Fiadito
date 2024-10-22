@@ -13,7 +13,7 @@
                   <Font name="System Bold" size="36.0" />
                </font>
             </Label>
-            <Button fx:id="DiariaBTN" layoutX="230.0" layoutY="79.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="141.0" text="Diaria">
+            <Button fx:id="BTNDiaria" layoutX="230.0" layoutY="79.0" mnemonicParsing="false" onAction="#abrirDiaria" prefHeight="75.0" prefWidth="141.0" text="Diaria">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
